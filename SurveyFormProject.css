@@ -3,10 +3,13 @@
 }
 
 input[type=checkbox]{
-  display:block;
+  display:inline;
 }
 
 input[name=skills]{
-  display: inline;
-  
+  text-align: left;
+}
+
+textarea{
+  padding-bottom: 100px;
 }
