@@ -1,0 +1,12 @@
+.inline{
+  display:block;
+}
+
+input[type=checkbox]{
+  display:block;
+}
+
+input[name=skills]{
+  display: inline;
+  
+}
