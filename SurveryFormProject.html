@@ -13,20 +13,27 @@
     </p>
     <form id="survey-form">
       <fieldset>
+        <fieldset>
         <label for="nameInput" type="text" name="last-name" id="name-label" class="inline"required>Enter your full name:
           <input type="text" id="name"  placeholder="full name" required>
           </input>
         </label>
+      </fieldset>
+      <fieldset>
         <label for="email" id="email-label"class="inline">Enter your email:
           <input type="email" name="email" id="email" placeholder="email" required>
           </input>
         </label>
+      </fieldset>
+      <fieldset>
         <label for="number" id="number-label" >Enter your age:
           <input id="number" type="number" name="age" placeholder="age" min="10" max="18">
           </input>
         </label>
       </fieldset>
+      </fieldset>
       <fieldset>
+        <fieldset>
         <label class="inline">What instrument do you play?
           <select id="dropdown">
             <option value="">(select one)</option>
@@ -35,6 +42,8 @@
             <option value="3">Cello</option>
             <option value="4">Bass</option>
           <select>
+          </fieldset>
+      <fieldset>
         <label class="inline">Level of proficiency
             <fieldset class="options">
               <input type="radio" name="proficiency-level" id="beginner" value="beginner" checked>
@@ -49,6 +58,8 @@
               </input>Professional
             </fieldset>
         </label>
+      </fieldset>
+      <fieldset>
         <label class="inline">Musical Skills
            <fieldset class="options"> 
             <feildset><input type="checkbox" name="skills" id="music-reading" value="music-reading">Sheet Music Comprehension
@@ -71,9 +82,11 @@
         <label>Additional Comments: 
           <textarea id="comments" name="comments" placeholder="I have comments regarding..." rows="3" cols="50" class="textarea"></textarea>
         </label>
+              <input type="submit" id="submit" value="Submit">
+      </input>
         </fieldset>
       </fieldset>
-      <input type="submit" id="submit" value="Submit"><input>
+     
     </form>
   </body>
 </html>
