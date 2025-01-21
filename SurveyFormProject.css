@@ -15,13 +15,24 @@ textarea{
   padding-bottom: 100px;
 }
 
-fieldset[name=professional]{
-  margin-bottom: 1.5em;
-  margin-top: 0em;
-}
-
 .options{
   border: none;
   padding: none;
   margin: none;
+  height: 0.5em;
+}
+
+h1{
+  text-align: center;
+}
+
+h1,label,fieldset{
+  font-family: sans-serif;
+} 
+
+input[type=submit]{
+  width: 7em;
+  
+ 
+  
 }
