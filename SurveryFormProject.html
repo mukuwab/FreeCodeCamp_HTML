@@ -29,11 +29,11 @@
       <fieldset>
         <label>What instrument do you play?
           <select>
-            <option>(select one)</option>
-            <option>Violin</option>
-            <option>Viola</option>
-            <option>Cello</option>
-            <option>Bass</option>
+            <option value="">(select one)</option>
+            <option value="1">Violin</option>
+            <option value="2">Viola</option>
+            <option value="3">Cello</option>
+            <option value="4">Bass</option>
           <select>
         <label>
         <label>Level of proficiency
@@ -56,6 +56,9 @@
       <fieldset>
         <label>Please list any accommodation below: 
           <textarea id="accommodations" name="accommodations" placeholder="Nut allergy, physical limitations..." rows="3" cols="30"></textarea>
+        </label>
+        <label>Additional Comments: 
+          <textarea id="comments" name="comments" placeholder="I have comments regarding..." rows="3" cols="30"></textarea>
         </label>
       </fieldset>
       <input type="submit" id="submit" value="Submit"><input>
