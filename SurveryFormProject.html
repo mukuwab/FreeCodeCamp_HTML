@@ -13,22 +13,18 @@
     </p>
     <form id="survey-form">
       <fieldset>
-        <label for="first-name">Enter your first name:
-          <input id="first-name" name="first-name"type="text" required>
+        <label for="nameInput" type="text" name="last-name" id="name-label" required>Enter your full name:
+          <input type="text" id="nameInput" placeholder="full name" required>
           </input>
         </label>
-        <label for="last-name" type="text" name="last-name" id="last-name" required>Enter your last name:
-          <input type="text" required>
-          </input>
-        </label>
-        <label for="email">Enter your email:
-          <input type="email" name="email" id="email"required>
+        <label for="email" id="email-label">Enter your email:
+          <input type="email" name="email" id="email" placeholder="email" required>
           </input>
         </label>
       </fieldset>
       <fieldset>
-        <label for="age">Enter your age:
-          <input id="age" type="number" name="age" min="10" max="18">
+        <label for="numberInput" id="number-label" >Enter your age:
+          <input id="numberInput" type="number" name="age" placeholder="age" min="10" max="18">
 
           </input>
         </label>
