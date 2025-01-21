@@ -35,36 +35,43 @@
             <option value="3">Cello</option>
             <option value="4">Bass</option>
           <select>
-        <label>
         <label class="inline">Level of proficiency
-            <input type="radio" name="proficiency-level" id="beginner" value="beginner" checked>
-            </input>Beginner
-            <input type="radio" name="proficiency-level" id="intermediate" value="intermediate">
-            </input>Intermediate
-            <input type="radio" name="proficiency-level" id="intermediate" value="professional">
-            </input>Professional
-        <label>
+            <fieldset class="options">
+              <input type="radio" name="proficiency-level" id="beginner" value="beginner" checked>
+              </input>Beginner
+            </fieldset>
+            <fieldset class="options">
+              <input type="radio" name="proficiency-level" id="intermediate" value="intermediate">
+              </input>Intermediate
+            </fieldset>
+            <fieldset name="professional" class="options">
+              <input type="radio" name="proficiency-level" id="intermediate" value="professional">
+              </input>Professional
+            </fieldset>
+        </label>
         <label class="inline">Musical Skills
-           <fieldset> 
+           <fieldset class="options"> 
             <feildset><input type="checkbox" name="skills" id="music-reading" value="music-reading">Sheet Music Comprehension
             </input></fieldset>
-            <fieldset>
+            <fieldset class="options">
               <input type="checkbox" name="skills" id="instrument-tuning" value="instrument-tuning">Instrument Tuning
             </input>
           </fieldset>
-          <fieldset>
+          <fieldset class="options">
             <input type="checkbox" name="skills" value="Vibrato">Vibrato
             </input>
           </fieldset>
         <label>
       </fieldset>
       <fieldset>
-        <label>Please list any accommodation below: 
+        <fieldset>Please list any accommodation below: 
           <textarea id="accommodations" name="accommodations" placeholder="Nut allergy, physical limitations..." rows="3" cols="50" class="textarea"></textarea>
-        </label>
+        </fieldset>
+        <fieldset>
         <label>Additional Comments: 
           <textarea id="comments" name="comments" placeholder="I have comments regarding..." rows="3" cols="50" class="textarea"></textarea>
         </label>
+        </fieldset>
       </fieldset>
       <input type="submit" id="submit" value="Submit"><input>
     </form>
