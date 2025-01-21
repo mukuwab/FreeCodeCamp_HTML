@@ -13,11 +13,11 @@
     </p>
     <form id="survey-form">
       <fieldset>
-        <label for="nameInput" type="text" name="last-name" id="name-label" required>Enter your full name:
-          <input type="text" id="nameInput" placeholder="full name" required>
+        <label for="nameInput" type="text" name="last-name" id="name-label" class="inline"required>Enter your full name:
+          <input type="text" id="nameInput"  placeholder="full name" required>
           </input>
         </label>
-        <label for="email" id="email-label">Enter your email:
+        <label for="email" id="email-label"class="inline">Enter your email:
           <input type="email" name="email" id="email" placeholder="email" required>
           </input>
         </label>
@@ -27,7 +27,7 @@
         </label>
       </fieldset>
       <fieldset>
-        <label>What instrument do you play?
+        <label class="inline">What instrument do you play?
           <select>
             <option value="">(select one)</option>
             <option value="1">Violin</option>
@@ -36,7 +36,7 @@
             <option value="4">Bass</option>
           <select>
         <label>
-        <label>Level of proficiency
+        <label class="inline">Level of proficiency
             <input type="radio" name="proficiency-level" id="beginner" checked>
             </input>Beginner
             <input type="radio" name="proficiency-level" id="intermediate">
@@ -44,12 +44,12 @@
             <input type="radio" name="proficiency-level" id="intermediate">
             </input>Professional
         <label>
-        <label>Musical Skills
+        <label class="inline">Musical Skills
           <input type="checkbox" name="skills" id="music reading">Sheet Music Comprehension
           </input>
           <input type="checkbox" name="skills" id="instrument-tuning">Instrument Tuning
           </input>
-          <input>Vibrato
+          <input type="checkbox" name="skills">Vibrato
           </input>
         <label>
       </fieldset>
